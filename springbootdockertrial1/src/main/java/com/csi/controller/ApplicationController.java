@@ -26,5 +26,10 @@ public class ApplicationController {
         return "WELCOME TO FINTECH CSI PUNE";
     }
 
+    @GetMapping
+    public String tata(){
+        return "WELCOME TO FINTECH CSI PUNE";
+    }
+
 
 }

@@ -20,4 +20,11 @@ public class ApplicationController {
 
 
     }
+
+    @GetMapping
+    public String Hello(){
+        return "WELCOME TO FINTECH CSI PUNE";
+    }
+
+
 }
